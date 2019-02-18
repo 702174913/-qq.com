@@ -1,0 +1,14 @@
+<!--property/pages/pay/pay-choose/pay-choose.wxml-->
+<view class='lcontainer'>
+  <view class='pay'>
+    <view class='div' style='font-size:36rpx;font-weigth:bold;'>
+      在线缴费
+    </view>
+  </view>
+  <view class='choose'>
+    <view class="which {{index==this ? 'this':''}}" wx:for="{{methods}}" wx:key="index" bindtap='chooses' data-index="{{index}}">
+      <view class='price'>{{item.price}}元</view>
+      <view class='month'>{{item.month}}个月</view>
+    </view>
+  </view>
+</view>

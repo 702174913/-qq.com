@@ -1,0 +1,80 @@
+<!--pages/property/property.wxml-->
+<view class="lcontainer">
+  <view class='swiper'>
+    <swiper indicator-dots="true" indicator-color="rgba(255,255,255,.7)" indicator-active-color="#ff9620"               class='container-swiper' autoplay='true' circular='true'>
+    <block wx:for='{{imgs}}' wx:key="index">
+      <swiper-item >
+        <image src='{{item.img}}'></image>
+      </swiper-item>
+    </block>
+    </swiper>
+  </view>
+  <view class="function flex">
+    <navigator url="/property/pages/pay/pay-choose/pay-choose">
+      <view class='category ' mode="aspectFit">
+      <view class='c-imglist'>
+        <image src='/assets/nv_icon_pay.png' class='c-img a'></image>
+      </view>
+        <view class='text'>物业缴费</view>
+      </view>
+    </navigator>
+    <navigator url="/property/pages/repair/repair">
+      <view class='category ' mode="aspectFit">
+      <view class='c-imglist'>
+        <image src='/assets/nv_icon_repair.png' class='c-img b'></image>
+      </view>
+        <view class='text'>在线报修</view>
+      </view>
+    </navigator>
+    <navigator url="/property/pages/investigation/investigation">
+      <view class='category ' mode="aspectFit">
+      <view class='c-imglist'>
+        <image src='/assets/nv_icon_survey.png' class='c-img c'></image>
+      </view>
+        <view class='text'>在线调查</view>
+      </view>
+    </navigator>
+    <navigator url="/property/pages/feedback/feedback">
+      <view class='category ' mode="aspectFit">
+      <view class='c-imglist'>
+        <image src='/assets/nv_icon_feedback.png' class='c-img d'></image>
+      </view>
+        <view class='text'>业主反馈</view>
+      </view>
+    </navigator>
+  </view>
+  <view class='news'>
+    <view class='news-img'>
+      <image src='/assets/announcements_title.png' mode='widthFix'></image>
+    </view>
+    <view class='wuye'>
+      物业
+    </view>
+    <swiper class='news-swiper oneline' autoplay='true' vertical='true'  circular='true' >
+      <swiper-item catchtouchmove='stop'>
+        小程序金房物业即将上线ddddddd业即将上线ddddddd
+      </swiper-item>
+      <swiper-item catchtouchmove='stop'>
+        小程序金房物业即将上线ddddddd业即将上线ddddddd
+      </swiper-item>
+      <swiper-item catchtouchmove='stop'>
+        小程序金房物业即将上线ddddddd业即将上线ddddddd
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class='about'>
+    <rich-text style="font-weight:bold;font-size:32rpx;">企业介绍</rich-text>
+    <view style='height:260rpx;margin-top:25rpx;'>
+      <image src='/assets/img/about-us.png' style='border-radius:10rpx;'></image>
+    </view>
+    <view class='div tips'>
+      金房物业服务建立于2015年01月26日致力于
+    </view>
+  </view>
+  <view class='more'>
+    <navigator class='see-more'>点击查看详情 <text style='font-weight:bold;font-size:30rpx;' class='right-icon'>></text></navigator>
+  </view>
+</view>
+<view class='service'>
+ <image src='/assets/side_icon_phone.png'></image>  一键客服
+</view>

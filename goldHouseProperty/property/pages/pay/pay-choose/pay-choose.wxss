@@ -1,0 +1,44 @@
+/* property/pages/pay/pay-choose/pay-choose.wxss */
+.pay{
+  background: white;
+}
+.lcontainer{
+  padding-top: 20rpx;
+}
+.div{
+  font-weight: bold;
+  padding: 20rpx 20rpx;
+  background: white;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.choose{
+  background: white;
+  padding: 40rpx 24rpx;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: -40rpx;
+  justify-content: space-between;
+}
+.which{
+  width: 330rpx;
+  height: 155rpx;
+  line-height: 50rpx;
+  border:1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 30rpx;
+  margin-top: 40rpx;
+}
+.price{
+  font-size: 46rpx;
+}
+.month{
+  font-size: 30rpx;
+  color: rgb(185, 184, 184);
+}
+.this{
+  border: 1px solid #3299ff;
+  color:  #3299ff;
+}
+.this .month{
+  color: #3299ff;
+}

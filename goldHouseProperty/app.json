@@ -1,0 +1,66 @@
+{
+  "pages":[
+    
+    "pages/property/property",
+    "pages/index/index",
+    "pages/community/community",
+    "pages/mall/mall",
+    "pages/user/user"
+  ],
+  "subpackages": [
+    {
+      "root": "property",
+      "pages": [
+        "pages/news/news",
+        "pages/pay/pay-choose/pay-choose"
+      ]
+    }
+  ],
+  "usingComponents": {
+    "van-popup": "miniprogram_npm/_vant-weapp@0.5.4@vant-weapp/popup/index",
+    "van-dialog": "miniprogram_npm/_vant-weapp@0.5.4@vant-weapp/dialog/index"
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "金房物业",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#ff9722",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assets/bottom_home_icon_n.png",
+        "selectedIconPath": "/assets/bottom_home_icon_s.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "社区",
+        "iconPath": "/assets/bottom_icon_community_n.png",
+        "selectedIconPath": "/assets/bottom_icon_community_s.png"
+      },
+      {
+        "pagePath": "pages/mall/mall",
+        "text": "商城",
+        "iconPath": "/assets/bottom_icon_mall_n.png",
+        "selectedIconPath": "/assets/bottom_icon_mall_s.png"
+      },
+      {
+        "pagePath": "pages/property/property",
+        "text": "物业",
+        "iconPath": "/assets/bottom_icon_property_n.png",
+        "selectedIconPath": "/assets/bottom_icon_property_s.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "/assets/bottom_icon_me_n.png",
+        "selectedIconPath": "/assets/bottom_icon_me_s.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+/* pages/property/property.wxss */
+.container-swiper{
+  height: 270rpx;
+  padding: 0 24rpx;
+  margin: 0 auto;
+}
+.lcontainer{
+  padding-bottom: 20rpx;
+}
+.container-swiper image{
+  border-radius: 8rpx;
+}
+.swiper{
+  background: white; 
+}
+.function navigator{
+  height: 200rpx;
+  background: white;
+  flex: 1;
+  text-align: center;
+}
+.category{
+  height: 100%;
+}
+.function{
+height: 200rpx;
+  background: white;
+  width: 100%;
+}
+.c-img{
+  height: 60rpx;
+  width: 50rpx;
+  margin-top: 40rpx;
+}
+.b{
+  width: 40rpx;
+}
+.c{
+  height: 60rpx;
+  width: 60rpx;
+}
+.d{
+  width: 70rpx;
+  transform: translateY(4rpx);
+}
+.text{
+  margin-top: 30rpx;
+
+}
+.news{
+  margin-top: 20rpx;
+  height: 100rpx;
+  background: white;
+  padding: 30rpx 24rpx;
+  display: flex;
+}
+.news-img{
+  height: 100%;
+  padding-right: 25rpx;
+  border-right:1px solid rgba(0,0,0,.1);
+  }
+.news-img image{
+  width: 180rpx;
+}
+.news-swiper{
+  height: 100%;
+  flex: 1;
+  margin-left: 20rpx;
+}
+.wuye{
+  border: 1px solid #3299ff;
+  border-radius: 10rpx;
+  padding:0rpx 30rpx;
+  font-size: 28rpx;
+  line-height: 50rpx;
+  color: #3299ff;
+  height: 50rpx;
+  transform: translateY(-5rpx);
+  margin-left: 20rpx;
+}
+.about{
+  margin-top: 20rpx;
+  background: white;
+  padding: 32rpx 24rpx;
+}
+.tips{
+  font-size: 28rpx;
+  margin-top: 20rpx;
+  font-weight: bold;
+  
+}
+.more{
+  border-top: 1px solid rgba(0,0,0,.1);
+  background:white;
+  text-align: center;
+}
+.see-more{
+  font-size: 26rpx;
+  padding: 30rpx 0;
+}
+.service{
+  height: 100rpx;
+  display: flex;
+  overflow: hidden;
+  line-height: 100rpx;
+  position: fixed;
+  width:300rpx;
+  bottom: 100rpx;
+  right: 20rpx;
+  background: white;
+  padding-left: 60rpx;
+  border-radius: 100rpx;
+  box-shadow: 0px 0px 15rpx rgba(0,0,0,.4);
+}
+.service::before{
+  content: '';
+  display:block;
+  height: 40rpx;
+  width: 1px;
+  background: rgba(0,0,0,.1);
+  position: relative;
+  left: 55rpx;
+  top: 30rpx;
+}
+.service image{
+  width: 40rpx;
+  transform: translateY(-30rpx);
+  margin-right: 35rpx;
+}
